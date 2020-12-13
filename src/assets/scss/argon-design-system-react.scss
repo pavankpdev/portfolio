@@ -1,0 +1,96 @@
+/*!
+
+=========================================================
+* Argon Design System React - v1.1.0 based on Argon Design System - v1.1.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Theme Variables
+@import "argon-design-system/variables";
+
+// Bootstrap Core
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Theme Core
+@import "argon-design-system/theme";
+
+// React Differences
+@import "react/react-differences";
+
+// Colors
+$dot-color: hsl(256, 33, 70);
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+  background: linear-gradient(
+        90deg,
+        $default ($dot-space - $dot-size),
+        transparent 1%
+      )
+      center,
+    linear-gradient($default ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid $primary !important;
+  color: $primary !important;
+  font-weight: 800 !important;
+}
+
+.home-container {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.homeflex {
+  flex-direction: row-reverse !important;
+}
+.profilepic {
+  margin-bottom: 1rem;
+}
+
+.img-border {
+  border: 3px solid $primary;
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    margin-top: 5rem;
+  }
+  .img-border {
+    width: 75%;
+    outline: 1px solid $primary;
+    outline-offset: 15px;
+  }
+  .profilepic {
+    margin-bottom: 0;
+  }
+
+  .homeflex {
+    flex-direction: row !important;
+  }
+}
