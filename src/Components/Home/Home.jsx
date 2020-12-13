@@ -35,7 +35,7 @@ const Home = () => {
               <Social
                 social="twitter"
                 margin
-                link="https://twitter.com/Mr_Pavan_Kumar3"
+                link="https://twitter.com/Mr_Pavan_Kumar3/"
               />
               <Social
                 social="instagram"
