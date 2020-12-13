@@ -16,9 +16,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "minify-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --output-style compressed",
     "start": "react-scripts start",
-    "build": "npm run minify-sass && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
