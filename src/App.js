@@ -1,12 +1,15 @@
-import React from "react";
-
+import React, { Suspense } from "react";
+import { Spinner } from "reactstrap";
+import { Route } from "react-router-dom";
 // Pages
-import MainPage from "./Page/Main.page";
+const MainPage = React.lazy(() => import("./Page/Main.page"));
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <Suspense fallback={<Spinner />}>
+        <Route path="/" exact component={MainPage} />
+      </Suspense>
     </div>
   );
 }
