@@ -16,7 +16,7 @@ const About = () => {
             Hi, I'm Pavan from Bangalore, India. I'm a full-stack JavaScript
             developer with over one year of experience, also I work with DevOps.
             I'm pursuing my Bachelor's degree in Information Science and
-            Engineering at Dayananda Sagara Institutes, Bangalore. I like to
+            Engineering at Dayananda Sagar Institutes, Bangalore. I like to
             write and read about tech, stocks, start-ups, etc.
           </p>
         </div>

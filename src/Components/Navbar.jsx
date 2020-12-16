@@ -27,7 +27,9 @@ const NavbarComp = () => {
       >
         <Container>
           <NavbarBrand>
-            <h1 className="display-3 font-weight-700 text-primary">KP</h1>
+            <Link to={{ search: "?page=Home" }}>
+              <h1 className="display-3 font-weight-700 text-primary">KP</h1>
+            </Link>
           </NavbarBrand>
           <button
             aria-controls="navbar-default"
