@@ -8,7 +8,7 @@ import NavBar from "../Components/Navbar";
 import Home from "../Components/Home/Home";
 import About from "../Components/About";
 import Skills from "../Components/Skills/Skills";
-import Project from "../Components/Project";
+import Project from "../Components/Projects/Project";
 import Blogs from "../Components/Blogs";
 
 const MainPage = () => {
