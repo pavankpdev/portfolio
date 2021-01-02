@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <>
       <Container className="home-container">
-        <div className="d-md-flex flex-row-reverse  justify-content-between align-items-center ">
+        <div className="d-md-flex flex-row-reverse justify-content-between align-items-center ">
           <div className="profilepic">
             <img
-              src="https://ik.imagekit.io/fc12s0pxv9m/tr:w-334/IMG_0788.JPG_3-min_op0SUSI9d.jpg"
+              src="https://ik.imagekit.io/fc12s0pxv9m/tr:w-334/IMG_20190417_170253_230_2-lrUeUJB.jpg"
               alt="portrait"
               className="img-fluid rounded-lg img-border"
             />
@@ -45,9 +45,6 @@ const Home = () => {
             </div>
             <div className="mt-4">
               <Button color="primary">View Resume</Button>
-              <Button color="primary" outline>
-                Download Resume
-              </Button>
             </div>
           </div>
         </div>

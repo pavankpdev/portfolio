@@ -21,7 +21,7 @@ const ProjectCard = ({
 }) => {
   return (
     <>
-      <Col sm="12" lg="4">
+      <Col sm="12" md="6" lg="4">
         <Card className="mt-3">
           <CardHeader>
             {github ? (

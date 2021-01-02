@@ -1,10 +1,10 @@
 // Library
 import React from "react";
 import { Container } from "reactstrap";
-import { useLocation } from "react-router-dom";
+import { useLocation, Redirect } from "react-router-dom";
 
 // Components
-import NavBar from "../Components/Navbar";
+import NavBar from "../Components/Navbar/Navbar";
 import Home from "../Components/Home/Home";
 import About from "../Components/About";
 import Skills from "../Components/Skills/Skills";
@@ -19,8 +19,8 @@ const MainPage = () => {
 
   return (
     <>
+      <NavBar />
       <Container>
-        <NavBar />
         {searchPage === "About" ? (
           <About />
         ) : searchPage === "Skills" ? (
@@ -28,7 +28,10 @@ const MainPage = () => {
         ) : searchPage === "Project" ? (
           <Project />
         ) : searchPage === "Blogs" ? (
-          <Blogs />
+          ( window.open(
+            "https://pavanblogs.hashnode.dev/",
+            '_blank'
+          ))
         ) : (
           <Home />
         )}
