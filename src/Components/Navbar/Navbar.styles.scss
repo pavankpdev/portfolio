@@ -6,8 +6,24 @@
 
     & > li {
       margin-right: 1rem;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 400px) {
+  .navbar_custom {
+    margin-top: 1.5rem;
+    & > ul {
+      list-style: none;
+      display: flex;
+
+      & > li {
+        margin-right: 1rem;
+        font-size: 14px;
+        font-weight: 600;
+      }
     }
   }
 }
