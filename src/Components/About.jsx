@@ -4,13 +4,13 @@ import {} from "reactstrap";
 const About = () => {
   return (
     <>
-      <div className="mt-5">
-        <h1
-          className="bg-primary text-secondary font-weight-800"
+      <div className="mt-4">
+        <h2
+          className="px-3 bg-primary text-secondary font-weight-800"
           style={{ width: "fit-content" }}
         >
-          About Us
-        </h1>
+          About Me
+        </h2>
         <div className="mr-3">
           <p className="lead text-primary text-justify">
             Hi, I'm Pavan from Bangalore, India. I'm a full-stack JavaScript

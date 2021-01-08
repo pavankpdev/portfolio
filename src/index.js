@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 import $ from "jquery";
 import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -10,9 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/argon-design-system-react.scss";
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
       <App />
-    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

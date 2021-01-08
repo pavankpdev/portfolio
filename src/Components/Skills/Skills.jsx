@@ -5,13 +5,14 @@ const Skills = () => {
   return (
     <>
       <div className="mt-4">
-        <h1
-          className="bg-primary text-secondary display-2"
+        <h2
+          className="px-3 bg-primary text-secondary font-weight-800"
           style={{ width: "fit-content" }}
         >
-          Application
-        </h1>
-        <div className="d-flex flex-wrap mt-5">
+          My Skills
+        </h2>
+        <h2 className="mt-5 text-primary display-3">Application</h2>
+        <div className="d-flex flex-wrap mt-3">
           <Icon
             src="https://ik.imagekit.io/fc12s0pxv9m/New_Folder/react_aVN1wa99bl.png"
             alt="react"
@@ -40,13 +41,8 @@ const Skills = () => {
             name="Mongo DB"
           />
         </div>
-        <h1
-          className="bg-primary text-secondary display-2 mt-4"
-          style={{ width: "fit-content" }}
-        >
-          DevOps
-        </h1>
-        <div className="d-flex mt-5">
+        <h2 className="mt-3 text-primary display-3">DevOps</h2>
+        <div className="d-flex mt-3">
           <Icon
             src="https://ik.imagekit.io/fc12s0pxv9m/New_Folder/docker_bOST9wjqR.png"
             alt="docker"

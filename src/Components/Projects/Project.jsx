@@ -16,7 +16,13 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
     <>
-      <Row>
+      <h2
+        className="px-3 bg-primary text-secondary font-weight-800"
+        style={{ width: "fit-content" }}
+      >
+        My Projects
+      </h2>
+      <Row className="mt-4">
         <ProjectCard
           img="https://ik.imagekit.io/fc12s0pxv9m/Mask_Group_7_Gkfd80irz.png"
           redirectTo="https://pkborewells.in/"

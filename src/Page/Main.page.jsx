@@ -1,40 +1,33 @@
 // Library
 import React from "react";
 import { Container } from "reactstrap";
-import { useLocation, Redirect } from "react-router-dom";
 
 // Components
-import NavBar from "../Components/Navbar/Navbar";
 import Home from "../Components/Home/Home";
 import About from "../Components/About";
 import Skills from "../Components/Skills/Skills";
 import Project from "../Components/Projects/Project";
-import Blogs from "../Components/Blogs";
+import Blogs from "../Components/Blogs/Blogs";
+
+import "./MainPage.scss";
 
 const MainPage = () => {
-  const location = useLocation();
-
-  const searchParams = new URLSearchParams(location.search);
-  const searchPage = searchParams.get("page");
-
   return (
     <>
-      <NavBar />
-      <Container>
-        {searchPage === "About" ? (
+      <Container className="pt-3">
+        <Home />
+        <div className="about">
           <About />
-        ) : searchPage === "Skills" ? (
+        </div>
+        <div className="skills">
           <Skills />
-        ) : searchPage === "Project" ? (
+        </div>
+        <div className="project">
           <Project />
-        ) : searchPage === "Blogs" ? (
-          ( window.open(
-            "https://pavanblogs.hashnode.dev/",
-            '_blank'
-          ))
-        ) : (
-          <Home />
-        )}
+        </div>
+        <div className="blog">
+          <Blogs />
+        </div>
       </Container>
     </>
   );
