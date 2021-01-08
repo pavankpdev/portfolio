@@ -25,7 +25,7 @@ const Blogs = () => {
             image="https://cdn.hashnode.com/res/hashnode/image/upload/v1609491859762/ptnwb-3V7.jpeg?w=400&h=200&fit=crop&crop=entropy&auto=compress"
           />
           <Col lg="2">
-            <a href="https://pavanblogs.hashnode.dev/" target="_blank">
+            <a href="https://pavanblogs.hashnode.dev/" target="_blank" rel="noreferrer">
               <h4 className="text-primary font-weight-800 text-center">
                 <u>View More</u>
               </h4>

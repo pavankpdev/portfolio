@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardFooter,
-  Col,
-  Row,
-  Badge,
-} from "reactstrap";
+import { Row } from "reactstrap";
 
 import ProjectCard from "./ProjectCard";
 

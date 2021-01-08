@@ -6,7 +6,7 @@ const BlogCard = ({ url, title, image }) => {
     <>
       <Col lg="5">
         <div className="blog_holder">
-          <a href={url} target="_blank">
+          <a href={url} target="_blank" rel="noreferrer">
             <img alt="Serverless blog" src={image} className="blog__img" />
             <h4 className="mt-2 text-primary font-weight-800">{title}</h4>
           </a>

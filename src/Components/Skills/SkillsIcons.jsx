@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Card, Media } from "reactstrap";
 
 const SkillsIcon = (props) => {
   return (
@@ -9,7 +8,7 @@ const SkillsIcon = (props) => {
           className="icon icon-shape bg-primary rounded-circle text-white mb-3"
           style={{ width: "80px", height: "80px" }}
         >
-          <img {...props} />
+          <img alt="social handles" {...props} />
         </div>
         <h5 className="text-primary mt--3">{props.name}</h5>
       </div>
