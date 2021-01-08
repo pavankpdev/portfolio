@@ -17,12 +17,12 @@ const Blogs = () => {
           <BlogCard
             url="https://pavanblogs.hashnode.dev/understand-serverless-the-simple-way-1"
             title="Understand Serverless - The Simple Way"
-            image="https://cdn.hashnode.com/res/hashnode/image/upload/v1610037319074/zWlg39FQk.jpeg?w=400&h=200&fit=crop&crop=entropy&auto=compress"
+            image="https://ik.imagekit.io/fc12s0pxv9m/tr:w-400/serverless_EHTCLMjBey.jpg"
           />
           <BlogCard
             url="https://pavanblogs.hashnode.dev/understand-docker-the-simple-way"
             title="Understand Docker - The simple way"
-            image="https://cdn.hashnode.com/res/hashnode/image/upload/v1609491859762/ptnwb-3V7.jpeg?w=400&h=200&fit=crop&crop=entropy&auto=compress"
+            image="https://ik.imagekit.io/fc12s0pxv9m/tr:w-400/docker_cover_img_jzPoIWOPP.jpg"
           />
           <Col lg="2">
             <a href="https://pavanblogs.hashnode.dev/" target="_blank" rel="noreferrer">

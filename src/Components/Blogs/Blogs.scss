@@ -1,4 +1,19 @@
+.blog_holder {
+  width: 300px;
+}
+
 .blog__img {
   border-radius: 0.5rem;
-  overflow: hidden;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .blog_holder {
+    width: 400px;
+  }
+
+  .blog__img {
+    border-radius: 0.5rem;
+    width: 400px;
+  }
 }
